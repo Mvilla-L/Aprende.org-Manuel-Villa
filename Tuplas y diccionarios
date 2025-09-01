@@ -1,0 +1,20 @@
+robot = ["bipedo",6,["caminar","correr","saltar"]]
+variable = robot [2][1] = "trotar"
+print(variable)
+
+#tuplas
+#Son inmutables
+#Se definen con parentesis
+xy=("primavera","verano","otoño","invierno")
+print(xy[0])
+
+#Diccionarios
+#Se definen con llaves {}   
+#Son mutables
+#Se accede a los valores por medio de las llaves
+dic = {'Clave1':"Bipedo",
+       'Clave2':6,
+       'Clave3':["caminar","correr","saltar"]
+       }
+dic2 = dic["Clave3"][1]
+print(dic2)
