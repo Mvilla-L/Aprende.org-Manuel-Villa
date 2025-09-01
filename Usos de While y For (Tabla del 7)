@@ -1,0 +1,14 @@
+#tabla del 7 usando while
+x=1
+while x<=10:
+    tabla=7*x
+    print ("7 x",str(x),"=",str(tabla))
+    x=x+1
+
+#for 
+#lectura de elements en lista incluyendo palabras
+for x in range(1,11):
+    print ("7 x",str(x),"=",str(x*7))
+    x=x+1
+for palabras in "ESENCIA":
+    print (palabras)
