@@ -1,0 +1,48 @@
+#Calculo de areas
+
+f = 3.141516
+#Area del cuadrado
+def acuadrado():
+
+    lado = float(input("Cual es el valor del lado? "))
+    x = lado**2
+    print ("\nEl area del cuadrado es: ", x, "unidades cuadradas")
+
+#Area del triangulo
+def atriangulo():
+
+    base = float(input("Cual es el valor de la base? "))
+    altura = float(input("Cual es el valor de la altura?"))
+    y = base * altura / 2
+    print ("\nEl area del triangulo es: ", y, "unidades cuadradas")
+
+#Area del circulo
+def acirculo():
+
+    radio = float(input("Cual es el valor del radio? "))
+    z = (f*radio)**2
+    print ("\nEl area del circulo es: ", z, "unidades cuadradas")
+
+#Menu
+
+h = True
+while h == True:
+
+    area = input("\nElije la figura para calcular su area \n1. Area del cuadrado \n2. Area del triangulo \n3. Area del circulo \n4. Salir \n")
+
+    if area == "1":
+        acuadrado()
+    elif area == "2":
+        atriangulo()
+    elif area == "3":
+        acirculo()
+    else:
+        print ("\nIngresa una opcion valida")
+    h = input("\nQuieres hacer otro calculo? (si/no) \n")
+    if h == "si" or h == "Si" or h == "SI" or h == "sI" or h == "sí" or h == "Sí" or h == "SÍ" or h == "sÍ" or h == "s" or h == "S":
+        h = True
+    elif h == "no" or h == "No" or h == "NO" or h == "nO" or h == "n" or h == "N":
+        h = False
+        print ("\nGracias por usar el programa!")
+
+#Fin del programa
