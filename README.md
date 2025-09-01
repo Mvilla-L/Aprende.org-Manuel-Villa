@@ -1,8 +1,19 @@
-# Aprende.org-Manuel-Villa
-Excercises from Aprende.org courses
+# Aprende.org – Ejercicios de Manuel Villa
 
-*Note some commands are not included like the inclusion of ´float´ or 'int' before some inputs and the platform doens't explains this as they probably show older versions of VS Code or similars some be sure to check your codes for this or more details we'll be updating here.
+Repositorio con ejercicios y prácticas de programación realizadas en la plataforma Aprende.org. Ideal para mostrar tu progreso y lógica de código.
 
-Personal repository for exercises as Aprende.org doesn't have a ´Submit excercise´ option on it's platform.
+## Contenido
+- **Calculadora de áreas** – Usa operaciones básicas, recibe inputs y calcula áreas.
+- **Tuplas y diccionarios** – Ejercicios con estructuras de datos.
+- **Encuesta simple (if)** – Uso de condicionales.
+- *(Agrega una breve descripción de cada archivo aquí)*
 
-Feel free to guide yourself on this. ;)
+## Tecnologías usadas
+- Python (versión 3.x)
+- Conceptos de lógica y estructuras básicas
+
+## Cómo ejecutar
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/Mvilla-L/Aprende.org-Manuel-Villa.git
+   cd Aprende.org-Manuel-Villa
