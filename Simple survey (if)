@@ -1,0 +1,16 @@
+pregunta = input("¿Trabajas desde casa?: ")
+if pregunta == 'True' or pregunta == 'true' or pregunta == 'sí' or pregunta == 'Si' or pregunta == 'si' or pregunta == 'SÍ' or pregunta == 's':
+    print("¡Qué bien!")
+if pregunta == 'false' or pregunta == 'False' or pregunta == 'no' or pregunta == 'No' or pregunta == 'NO' or pregunta == 'n':
+    print("Trabajas fuera de casa.")
+
+    tiempo = int(input("¿Cuánto tiempo tardas en llegar al trabajo (en minutos)?: "))
+    if tiempo == 0:
+        print("Trabajas desde casa.")
+        
+    elif tiempo <= 20:
+        print ("Llegas rapido.")
+    elif tiempo >= 21 and tiempo <= 35:
+        print("Llegas en un tiempo razonable.")
+    else:
+        print("Llegas tarde.")
